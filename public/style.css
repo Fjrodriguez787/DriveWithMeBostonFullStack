@@ -1,0 +1,159 @@
+.clearfix {
+  overflow: auto;
+}
+body{
+  word-wrap:break-word;
+  background-color:#DEB887;
+}
+h1{
+  font-size: 20px;
+  color: white;
+}
+img{
+  float: left;
+  margin-left: 35%;
+  margin-right: 45%;
+  height: 200px;
+  text-align: center;
+}
+.jumbotron.text-center{
+  background-image: url('http://img.freepik.adobe.vip/free-photo/coffee-background_1404-1453.jpg?size=338&ext=jpg');
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+.jumbotron.text-center h1, h4{
+  color: white;
+}
+.jumbotron.text-center2{
+  background-color: white;
+
+  width: 100%;
+}
+.jumbotron.text-center2 h1, p{
+  /* color: yellow; */
+  text-align: center;
+}
+.btn-default{
+  margin-left: 40%;
+  margin-right: 40%;
+}
+.customerName input{
+  margin-top: 20px;
+  border-radius: 10px;
+
+}
+.formControl{
+  width: 530px;
+  height: 34px;
+  margin-bottom: 10px;
+}
+.cafeOption1, .cafeOption2, .cafeOption3, .cafeOption4{
+  box-shadow:inset 0px 1px 0px 0px #9acc85;
+  /* background: linear-gradient(to bottom, #74ad5a 5%, #68a54b 100%); */
+  background-image: url('https://thumbs.dreamstime.com/b/horizontal-seamless-background-coffee-beans-vector-40207908.jpg');
+  background-size: contain;
+  /* background-repeat: no-repeat; */
+
+  display:inline-block;
+  cursor:pointer;
+  color:yellow;
+  font-size:16px;
+  padding:18px 24px;
+  text-decoration:none;
+}
+.submitButton{
+	box-shadow:inset 0px 1px 0px 0px #9acc85;
+  background: linear-gradient(to bottom, #74ad5a 5%, #68a54b 100%);
+	background-color:#74ad5a;
+	border:1px solid #3b6e22;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:13px;
+	font-weight:bold;
+	padding:12px 24px;
+	text-decoration:none;
+}
+.sizeOption1,.sizeOption2,.sizeOption3,.sizeOption4{
+  box-shadow:inset 0px 1px 0px 0px #54a3f7;
+  background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSrWMRdfhn6df01DRNMw8UZKMJGpO0pBJ5zUI4HMPl2WZ4VSpVLnw');
+  background-size: contain;
+	display:inline-block;
+	cursor:pointer;
+	color:black;
+	font-family:Arial;
+	font-size:13px;
+	font-weight:bold;
+	padding:12px 24px;
+	text-decoration:none;
+}
+.cafeOption1:active,.cafeOption2:active,.cafeOption3:active,.cafeOption4:active,.submitButton:active{
+	position:relative;
+	top:3px;
+}
+
+.sizeOption1:active,.sizeOption2:active,.sizeOption3:active,.sizeOption4:active{
+  position:relative;
+  top:3px;
+}
+
+.submitButton{
+	box-shadow:inset 0px 1px 3px 0px #91b8b3;
+	background:linear-gradient(to bottom, #768d87 5%, #6c7c7c 100%);
+	background-color:#768d87;
+	border-radius:15px;
+	border:1px solid #566963;
+}
+.messages{
+  list-style-type: none;
+  display: inline-block;
+}
+.messages li{
+  float: left;
+}
+
+.completedButton{
+background-color:#44c767;
+border-radius:28px;
+border:1px solid #18ab29;
+display:inline-block;
+cursor:pointer;
+color:#ffffff;
+font-family:Arial;
+font-size:17px;
+padding:8px 16px;
+text-decoration:none;
+text-shadow:0px 1px 0px #2f6627;
+}
+.completedButton:hover {
+background-color:#5cbf2a;
+}
+.myButton:active {
+position:relative;
+top: 3px;
+}
+.choiceSize{
+  margin-bottom: 25px;
+}
+.containerOrder,.containerCompleted{
+  width: 40%;
+  height: 200px;
+  overflow-y: auto;
+  float: left;
+  text-align: center;
+  margin-right: 10%;
+  background-image: url('http://outlineresearchpaper.com/wp-content/uploads/2018/03/blank-food-receipt_2.png');
+  background-size: contain;
+  background-repeat: repeat-x;
+}
+
+.baristaWelcome{
+  font-size: 45px;
+  text-align: center;
+  margin-top: 15px;
+
+}
+.img{
+  margin-bottom: 10px;
+}
